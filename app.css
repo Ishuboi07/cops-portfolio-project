@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(0, 0, 0, 0.838);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.navbar{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.heading{
+    margin-bottom: 4rem;
+}
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.15px;
+}
+.navbar-toggler-icon{
+    border: none;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    /* display: flex;
+    justify-content: center; */
+}
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #fff; /* Change the background color as desired */
+    border-radius: 5px; /* Adjust the border radius as desired */
+  }
+
+  /* Styles for the active toggle button */
+  .navbar-toggler.active .navbar-toggler-icon {
+    background-color: blue; /* Change the background color for the active state */
+  }
+section{
+    color: #fff;
+}
+.footer {
+    background: rgb(39, 37, 37);
+    height: 40px;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .footer-text {
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.75rem;
+  }
+
+  .footer-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-icons li {
+    display: inline-block;
+    margin-left: 10px;
+  }
